@@ -1,0 +1,283 @@
+body {
+  background: #000;
+  font-family: lounge;
+}
+
+@font-face {
+  font-family: lounge;
+  src: url('./Lounge Things.otf');
+}
+
+.navbar {
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#navcol-3 a {
+  color: #C0316F;
+  font-family: inherit;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#navcol-3 i {
+  font-size: 30px;
+  color: #C0316F;
+  margin-left: 15px;
+  padding-bottom: 25px;
+}
+
+.c1 h1 {
+  color: #fff;
+}
+
+.c2 h1 {
+  color: #fff;
+}
+
+.c3 h1 {
+  color: #fff;
+}
+
+.c1 {
+  width: 100%;
+  height: 800px;
+  background: url("./nport3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c2 {
+  width: 100%;
+  height: 800px;
+  background: url("./ac3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c3 {
+  width: 100%;
+  height: 800px;
+  background: url("./ac2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .c1 img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .c1 {
+  }
+}
+
+.presimg .container {
+  text-align: center;
+}
+
+
+.presimg .container video {
+  padding-top: 20px;
+}
+
+.presentacion p {
+  margin: auto;
+  max-width: 1200px;
+  color: #fff;
+}
+
+.presentacion h1 {
+  margin: auto;
+  max-width: 1200px;
+  color: #C0316F;
+}
+
+.presentacion {
+  margin: 20px;
+  padding: 20px;
+}
+
+.pie {
+  width: 100%;
+  height: 200px;
+
+}
+
+.navbar-brand img {
+  width: 200px;
+  position: absolute;
+  z-index: 999999;
+  left: 50px;
+  top: 0;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    position: relative;
+    z-index: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .mimenu .imgp {
+    width: 90%;
+  }
+}
+
+.mimenu {
+  width: 100%;
+  height: 900px;
+  background: url("./8M%20(9).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mimenu3 {
+  width: 100%;
+  height: 900px;
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+section img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  section img {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+iframe {
+  width: 680px;
+  height: 680px;
+}
+
+@media (max-width: 992px) {
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  #carousel-1 img {
+    width: 80%;
+  }
+}
+
+.pie {
+  text-align: center;
+  padding-top: 60px;
+   background: #C0316F;
+   font-size: 28px;
+}
+
+.pie p {
+  color: #fff;
+}
+
+.pie a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mimenu2 {
+  width: 100%;
+  height: 900px;
+  background: url("./catering.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.caterings {
+ 
+ font-family: 'lounge';
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  width:100%;
+}
+
+.caterings img{
+    width: 100%;
+}
+@media (max-width: 992px) {
+  .caterings img {
+    width: 90%;
+  }
+}
+.BotonMargaritas {
+  color: #fff;
+  background: #C0316F;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 28px;
+  cursor:pointer;
+}
+
+#navcol-3 i {
+  padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .BotonMargaritas {
+    margin-top:10px;
+  }
+}
+#galeria{
+    text-align:center;
+}
+#galeria p{
+    color: #C0316F;
+    font-size: 30px;
+}
+.navbar-toggler-icon {
+  background-image: url("./morado2.png");
+}
+
+
+
+
